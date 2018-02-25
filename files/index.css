@@ -1,0 +1,22 @@
+.social {
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+.social a.github {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFW…gs4UVPv9MkHW3sX6Lgc/apYBR1fZktvSN7eMe3vflXgAEAKuQ6IVrJuPkAAAAASUVORK5CYII=) 50% no-repeat #030303;
+    border: 1px solid #030303;
+}
+.social a {
+     border-radius: 50%;
+     display: -moz-inline-stack;
+     display: inline-block;
+     vertical-align: middle;
+     zoom: 1;
+     text-indent: -9999px;
+     margin: 0 8px 15px;
+     opacity: .7;
+     width: 28px;
+     height: 28px;
+     transition: .3s;
+ }
