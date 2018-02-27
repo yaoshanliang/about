@@ -21,26 +21,14 @@
     <!-- 项目列表 -->
     <div id="project_content">
         <div class="tabs_list">
-            <a class="active" onclick="return setTab(0)">全部</a>
-            <a onclick="return setTab('web')">网站</a>
-            <a onclick="return setTab('wechat')">微信公众号</a>
-            <a onclick="return setTab('weapp')">微信小程序</a>
-            <a onclick="return setTab('mis')">管理信息系统</a>
+            <a class="set_tab active" data-type="0">全部</a>
+            <a class="set_tab" data-type="web">网站</a>
+            <a class="set_tab" data-type="wechat">微信公众号</a>
+            <a class="set_tab" data-type="weapp">微信小程序</a>
+            <a class="set_tab" data-type="mis">管理信息系统</a>
         </div>
         <div id="project_list">
             <ul id="project_list_item">
-                <li>
-                    <a href="https://pro.lagou.com/project/6387.html" target="_blank" data-lg-tj-id="1Pj0" data-lg-tj-no="0005" data-lg-tj-cid="6387">
-                        <div class="project_type develop"></div>
-                        <div class="project_main">
-                            <h3>微信朋友圈数据抓取</h3>
-                            <div class="category_list">
-                                <span class="category_tag">微信开发</span>
-                                <span class="category_tag">HTML5</span>
-                            </div>
-                        </div>
-                    </a>
-                </li>
             </ul>
         </div>
      </div>
@@ -52,6 +40,12 @@
 <script>
 
     setTab(0);
+
+    $('.set_tab').click(function () {
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        setTab($(this).data('type'));
+    });
 
     function setTab(type) {
         var html = '';
