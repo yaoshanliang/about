@@ -21,14 +21,14 @@
     <!-- 项目列表 -->
     <div id="project_content">
         <div class="tabs_list">
-            <a class="active">全部</a>
-            <a>网站</a>
-            <a>微信公众号</a>
-            <a>微信小程序</a>
-            <a>管理信息系统</a>
+            <a class="active" onclick="return setTab(0)">全部</a>
+            <a onclick="return setTab('web')">网站</a>
+            <a onclick="return setTab('wechat')">微信公众号</a>
+            <a onclick="return setTab('weapp')">微信小程序</a>
+            <a onclick="return setTab('mis')">管理信息系统</a>
         </div>
         <div id="project_list">
-            <ul>
+            <ul id="project_list_item">
                 <li>
                     <a href="https://pro.lagou.com/project/6387.html" target="_blank" data-lg-tj-id="1Pj0" data-lg-tj-no="0005" data-lg-tj-cid="6387">
                         <div class="project_type develop"></div>
@@ -47,4 +47,33 @@
 </div>
 <!-- 页面主体END -->
 </body>
+<script src="./files/jquery-3.3.1.min.js"></script>
+<script src="./projects.js"></script>
+<script>
+
+    setTab(0);
+
+    function setTab(type) {
+        var html = '';
+        $.each(projects, function (index, value) {
+            if (value.type == type || type == 0) {
+                html += '<li class="' + value.type + '"> ' +
+                        '<a href=?id=' + value.id + ' target="_blank" > ' +
+                        '<img class="project_item_image" src=' + value.cover + '>' +
+                        '<div class="project_main"> ' +
+                        '<h3>' + value.name + '</h3> ' +
+                        '<div class="category_list"> ';
+                $.each(value.tags, function (index, value) {
+                    html += '<span class="category_tag">' + value + '</span> ';
+                });
+                html += '</div> ' +
+                        '</div> ' +
+                        '</a> ' +
+                        '</li>';
+            }
+        });
+
+        $('#project_list_item').html(html);
+    }
+</script>
 </html>
