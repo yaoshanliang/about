@@ -22,10 +22,10 @@
     <div id="project_content">
         <div class="tabs_list">
             <a class="set_tab active" data-type="0">全部</a>
-            <a class="set_tab" data-type="web">网站</a>
-            <a class="set_tab" data-type="wechat">微信公众号</a>
-            <a class="set_tab" data-type="weapp">微信小程序</a>
-            <a class="set_tab" data-type="mis">管理信息系统</a>
+            <a class="set_tab" data-type="网站">网站</a>
+            <a class="set_tab" data-type="微信公众号">微信公众号</a>
+            <a class="set_tab" data-type="微信小程序">微信小程序</a>
+            <a class="set_tab" data-type="管理信息系统">管理信息系统</a>
         </div>
         <div id="project_list">
             <ul id="project_list_item">
@@ -34,7 +34,13 @@
      </div>
 </div>
 <!-- 页面主体END -->
+
+<footer>
+    <div class="footer"></div>
+</footer>
+
 </body>
+<script src="./files/index.js"></script>
 <script src="./files/jquery-3.3.1.min.js"></script>
 <script src="./projects.js"></script>
 <script>
@@ -52,7 +58,7 @@
         $.each(projects, function (index, value) {
             if (value.type == type || type == 0) {
                 html += '<li class="' + value.type + '"> ' +
-                        '<a href=?id=' + value.id + ' target="_blank" > ' +
+                        '<a href=./detail.html?id=' + index + ' target="_blank" > ' +
                         '<img class="project_item_image" src=' + value.cover + '>' +
                         '<div class="project_main"> ' +
                         '<h3>' + value.name + '</h3> ' +

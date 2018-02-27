@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title></title>
+    <link rel="icon shortcut bookmark" href="https://static.lagou.com/parttime-jobs/static/common/static/favicon_890fe78.ico">
+    <link rel="stylesheet" type="text/css" href="./files/base_1fab9d1.css">
+    <link rel="stylesheet" type="text/css" href="./files/layout_603fe42.css">
+    <link rel="stylesheet" type="text/css" href="./files/main.html_aio_1be04c3.css">
+    <link rel="stylesheet" type="text/css" href="./files/index.css">
+<body>
+
+<div id="operate_notes">
+    <div class="project_name"></div>
+    <div class="notes_bar">
+        <a class="over" href="./project.html">项目列表</a>
+        <i class="will_attain"></i>
+        <a class="will_attain" href="javascript:void(0);">项目详情</a>
+    </div>
+</div>
+
+<!-- 页面主体START -->
+<div id="content_container">
+    <div id="project_detail">
+        <div class="project_info">
+            <ul class="baseInfo">
+                <li><i class="icons icon-bookmark"></i><span class="project_key">项目类型：</span><span id="type"></span></li>
+            </ul>
+            <ul class="baseInfo">
+                <li><i class="icons icon-bookmark"></i><span class="project_key">项目地址：</span><span id="link"></span></li>
+            </ul>
+            <ul class="baseInfo">
+                <li><i class="icons icon-time"></i><span class="project_key">项目周期：</span><span id="period"></span></li>
+            </ul>
+            <div class="category_list">
+            </div>
+            <div class="project_content">
+                <div class="title"><span>项目描述</span></div>
+                <div class="project_txt">
+                <pre id="description"></pre>
+                </div>
+                <div id="images">
+                     src="http://p4qunz9x0.bkt.clouddn.com/CgpnS1ntzDSANcohABXnVC90BCM039%20%281%29.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer"></div>
+</footer>
+</body>
+<script src="./files/index.js"></script>
+<script src="./files/jquery-3.3.1.min.js"></script>
+<script src="./projects.js"></script>
+<script>
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+
+    var id = getUrlParam('id');
+    var project = projects[id];
+    document.title = project.name;
+
+    console.log(project);
+    $('.project_name').text(project.name);
+    $('#type').text(project.type);
+    $('#link').html('<a href=' + project.link + ' target=_blank>' + project.link + '</a>');
+    $('#period').text(project.period);
+
+    var html = '';
+    $.each(project.tags, function (index, value) {
+        html += '<span class="category_tag">' + value + '</span> ';
+    });
+    $('.category_list').html(html);
+    $('#description').html(project.description);
+    html = '';
+    $.each(project.images, function (index, value) {
+        html += '<img class="project_detail_image" src="' + value + '">';
+    });
+    $('#images').html(html);
+
+
+
+</script>

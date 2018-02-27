@@ -41,3 +41,27 @@
     width: 100%;
     height: 200px;
 }
+.project_detail_image {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.footer {
+    margin-bottom: 100px;
+}
+.project_name {
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    line-height: 166px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+.baseInfo #link a {
+    color: #ed7266;
+}
+.baseInfo #link a:hover {
+    color: #3dca99;
+}
