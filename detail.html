@@ -29,7 +29,7 @@
                 <li><i class="icons icon-bookmark"></i><span class="project_key">项目类型：</span><span id="type"></span></li>
             </ul>
             <ul class="baseInfo">
-                <li><i class="icons icon-bookmark"></i><span class="project_key">项目地址：</span><span id="link"></span></li>
+                <li><i class="icons icon-award"></i><span class="project_key">项目地址：</span><span id="link"></span></li>
             </ul>
             <ul class="baseInfo">
                 <li><i class="icons icon-time"></i><span class="project_key">项目周期：</span><span id="period"></span></li>
@@ -69,7 +69,12 @@
     console.log(project);
     $('.project_name').text(project.name);
     $('#type').text(project.type);
-    $('#link').html('<a href=' + project.link + ' target=_blank>' + project.link + '</a>');
+    if (project.link.indexOf('http') != -1) {
+        var url = '<a href=' + project.link + ' target=_blank>' + project.link + '</a>';
+    } else {
+        var url = project.link;
+    }
+    $('#link').html(url);
     $('#period').text(project.period);
 
     var html = '';
