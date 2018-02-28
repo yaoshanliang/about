@@ -59,7 +59,7 @@ var projects = {
         'tags': ['微信公众号', '旅游', '地图', 'Laravel', '微信接口开发'],
         'period': '2017/10 — 2017/11',
         'link': '微信公众号: 一路出行服务号',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%8C%85%E8%BD%A6-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC%202.png',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%8C%85%E8%BD%A6-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC%203.png',
         'description': '【项目描述】一路租车是一款互联网巴士出行平台，平台包含：包车下单、支付、议价、评论、拼团、路线定制等功能。',
         'images': [
             'http://p4qunz9x0.bkt.clouddn.com/%E5%8C%85%E8%BD%A6-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC.png',
@@ -77,6 +77,18 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E8%B7%AF%E7%BA%BF-%E5%AE%9A%E5%88%B6%E7%9A%84%E5%89%AF%E6%9C%AC.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E6%90%9C%E7%B4%A2%E7%9A%84%E5%89%AF%E6%9C%AC.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83-%E6%8A%95%E8%AF%89%E7%9A%84%E5%89%AF%E6%9C%AC.png',
+        ]
+    },
+
+    'laravel': {
+        'type': '网站 开源项目',
+        'name': 'A php framework based on laravel',
+        'tags': ['网站', 'Laravel', '开源'],
+        'period': '2017/03 — 至今',
+        'link': 'https://github.com/yaoshanliang/laravel',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/laravel.png',
+        'description': '【项目描述】基于Laravel的上手即用框架,内置前台、后台、api、微信公众号、微信小程序功能模块。<br>【开源地址】: <a href="https://github.com/yaoshanliang/laravel" target="_blank">https://github.com/yaoshanliang/laravel</a> ',
+        'images': [
         ]
     },
 
