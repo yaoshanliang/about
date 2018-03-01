@@ -5,7 +5,7 @@ var projects = {
         'tags': ['网站', '教育', '视频', 'Laravel'],
         'period': '2017/02-2017/03',
         'link': 'http://study.sshmt.com',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%89%8D%E5%8F%B0-%E9%A6%96%E9%A1%B5-%E4%B8%8A%E9%83%A8%E5%88%86%E7%9A%84%E5%89%AF%E6%9C%AC.png',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%89%8D%E5%8F%B0-%E9%A6%96%E9%A1%B5-%E4%B8%8A%E9%83%A8%E5%88%86-cover.png',
         'description': '【项目描述】公务员在线视频学习及考试网站的开发。用户观看课程视频进行学习，观看后进行在线答题，系统需记录观看进度，进行成绩、学时、学分等统计。后台进行用户管理、课程管理、试题管理等。<br>【项目职责】负责业务功能（PC端B/S系统）的开发，具体包含： 系统的架构设计及数据库设计（MySQL）；系统前台和后台的页面制作（Bootstrap+JQuery+Html+CSS）；系统前后和后台的功能实现（基于PHP Laravel 框架）；系统的部署； 配合测试团队对系统局部或整体功能的测试，并根据反馈进行问题修复和调优。',
         'images': [
             'http://p4qunz9x0.bkt.clouddn.com/%E5%89%8D%E5%8F%B0-%E9%A6%96%E9%A1%B5-%E4%B8%8A%E9%83%A8%E5%88%86.png',
@@ -124,6 +124,71 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%81%A5%E5%BA%B7%E6%B5%8B%E9%87%8F.png'
+        ]
+    },
+
+    'sues': {
+        'type': '网站',
+        'name': '苏州大学实验学校网站',
+        'tags': ['网站', 'wordpress', 'ThinkPHP'],
+        'period': '2017/03 — 2017/03',
+        'link': 'http://sues.net.cn/Sds/Home/Index',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E7%BD%91%E7%AB%99-cover.png',
+        'description': '【项目描述】：学校官网, 包含学校概况、新闻中心、党政之窗、教学科研、国际交流、关工在线、招生招聘等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E7%BD%91%E7%AB%99-%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E7%BD%91%E7%AB%99-%E9%A6%96%E9%A1%B52.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E7%BD%91%E7%AB%99-%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83.png'
+        ]
+    },
+
+    'ssha-weapp': {
+        'type': '微信小程序 开源项目',
+        'name': '盛世华安-小程序',
+        'tags': ['微信小程序', 'wordpress'],
+        'period': '2017/01 — 2017/01',
+        'link': 'https://github.com/yaoshanliang/weapp-ssha',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E7%9B%9B%E4%B8%96%E5%8D%8E%E5%AE%89%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A0%81.jpeg',
+        'description': '【项目描述】：提供公司新闻资讯、产品服务、宣传视频、联系方式等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%9B%9B%E4%B8%96%E5%8D%8E%E5%AE%89%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A0%81.jpeg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%9B%9B%E4%B8%96%E5%8D%8E%E5%AE%89%E5%B0%8F%E7%A8%8B%E5%BA%8F-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%9B%9B%E4%B8%96%E5%8D%8E%E5%AE%89%E5%B0%8F%E7%A8%8B%E5%BA%8F-2.png'
+        ]
+    },
+
+    'jlxh-weapp': {
+        'type': '微信小程序',
+        'name': '嘉禄讯汇-小程序',
+        'tags': ['微信小程序', 'wordpress'],
+        'period': '2018/01 — 2018/01',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F-qrcode.jpeg',
+        'description': '【项目描述】：提供公司新闻资讯、产品服务、宣传视频、联系方式等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F-qrcode.jpeg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F1.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F2.jpg',
+        ]
+    },
+
+    'health': {
+        'type': '手机H5',
+        'name': '血压血糖检测',
+        'tags': ['手机H5', 'charts'],
+        'period': '2016/11 — 2016/11',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E5%8E%8B%E8%A1%80%E7%B3%96%E6%A3%80%E6%B5%8B-%E6%89%AB%E7%A0%81%E8%AE%BF%E9%97%AE.png',
+        'description': '【项目描述】：基于血压血糖仪器测量汇报的数据，通过图表的形式将血压血糖的数据展示出来；用户可以绑定自己家人的账号，方便对家人数据的查看；对异常的血压血糖用突出的颜色标注，后台定期发送消息提醒。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E5%8E%8B%E8%A1%80%E7%B3%96%E6%A3%80%E6%B5%8B-%E6%89%AB%E7%A0%81%E8%AE%BF%E9%97%AE.png',
+            '<br>',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E5%8E%8B%E8%AE%B0%E5%BD%95.jpeg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E7%B3%96%E8%AE%B0%E5%BD%95.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E5%8E%8B%E7%BB%9F%E8%AE%A1.jpeg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%A1%80%E7%B3%96%E7%BB%9F%E8%AE%A1.jpeg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7.png'
         ]
     },
 };

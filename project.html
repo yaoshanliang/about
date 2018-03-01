@@ -60,9 +60,9 @@
         $.each(projects, function (index, value) {
             if (value.type.indexOf(type) != -1 || type == 0) {
                 html += '<li class="' + value.type + '"> ' +
-                        '<a href=./detail.html?id=' + index + ' target="_blank" > ' +
+                        '<a href=./detail.html?id=' + index + ' target="_blank" > <div class="project_item"> ' +
                         '<img class="project_item_image" src=' + value.cover + '>' +
-                        '<div class="project_main"> ' +
+                        '</div><div class="project_main"> ' +
                         '<h3>' + value.name + '</h3> ' +
                         '<div class="category_list"> ';
                 $.each(value.tags, function (index, value) {
