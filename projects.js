@@ -207,7 +207,7 @@ var projects = {
         ]
     },
 
-    'ssha-web': {
+    'ucenter': {
         'type': '网站 开源项目',
         'name': '用户中心',
         'tags': ['网站', 'laravel', 'redis'],
@@ -222,7 +222,9 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83-%E6%8E%A5%E5%85%A5%E5%BA%94%E7%94%A8.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%97%A5%E5%BF%97.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%B3%A8%E5%86%8C.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%97%A5%E5%BF%97.png'
         ]
     },
 };
