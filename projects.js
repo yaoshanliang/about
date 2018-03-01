@@ -191,4 +191,38 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7.png'
         ]
     },
+
+    'ssha-web': {
+        'type': '网站',
+        'name': '江苏盛世华安智能科技股份有限公司网站',
+        'tags': ['网站', 'wordpress'],
+        'period': '2016/10 — 2016/10',
+        'link': 'http://www.jsssha.com/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/ssha-cover.png',
+        'description': '【项目描述】：基于血压血糖仪器测量汇报的数据，通过图表的形式将血压血糖的数据展示出来；用户可以绑定自己家人的账号，方便对家人数据的查看；对异常的血压血糖用突出的颜色标注，后台定期发送消息提醒。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/ssha-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/ssha-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/ssha-3.png',
+        ]
+    },
+
+    'ssha-web': {
+        'type': '网站 开源项目',
+        'name': '用户中心',
+        'tags': ['网站', 'laravel', 'redis'],
+        'period': '2015/12 — 2016/03',
+        'link': 'https://github.com/yaoshanliang/ucenter',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-cover.png',
+        'description': '【项目描述】：集“统一身份认证服务”、“用户系统”、“权限系统”、“日志系统”、“文件系统”、“邮件服务”、“短信服务”等于一体， 旨在为开发者提供统一的管理、调用服务，让开发更简单！',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E7%99%BB%E5%BD%95.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E7%9F%AD%E4%BF%A1%E7%AE%A1%E7%90%86.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83-%E6%8E%A5%E5%85%A5%E5%BA%94%E7%94%A8.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83-%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%97%A5%E5%BF%97.png',
+        ]
+    },
 };
