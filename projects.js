@@ -111,4 +111,19 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97.png'
         ]
     },
+
+    'dashboard': {
+        'type': '网站',
+        'name': '触摸屏',
+        'tags': ['网站', '触摸屏', 'Laravel'],
+        'period': '2017/03 — 至今',
+        'link': '登录访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5-cover.png',
+        'description': '【项目描述】：一体机触摸屏项目，在惠民通项目用于在服务站展示政务服务等信息, 包含志愿者服务、预约挂号、血压血糖测量、寄快递、社区治理、智慧养老等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%81%A5%E5%BA%B7%E6%B5%8B%E9%87%8F.png'
+        ]
+    },
 };

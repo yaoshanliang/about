@@ -27,6 +27,7 @@
             <a class="set_tab" data-type="微信公众号">微信公众号</a>
             <a class="set_tab" data-type="微信小程序">微信小程序</a>
             <a class="set_tab" data-type="管理信息系统">管理信息系统</a>
+            <a class="set_tab" data-type="开源项目">开源项目</a>
         </div>
         <div id="project_list">
             <ul id="project_list_item">
@@ -57,7 +58,7 @@
     function setTab(type) {
         var html = '';
         $.each(projects, function (index, value) {
-            if (value.type == type || type == 0) {
+            if (value.type.indexOf(type) != -1 || type == 0) {
                 html += '<li class="' + value.type + '"> ' +
                         '<a href=./detail.html?id=' + index + ' target="_blank" > ' +
                         '<img class="project_item_image" src=' + value.cover + '>' +
