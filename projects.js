@@ -227,4 +227,41 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%97%A5%E5%BF%97.png'
         ]
     },
+
+    'dawosi': {
+        'type': '手机H5',
+        'name': '达沃斯参会神器',
+        'tags': ['手机H5', '微信接口开发', 'memcached'],
+        'period': '2015/08 — 2015/09',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8-qrcode.png',
+        'description': '【项目描述】：服务于2015年达沃斯领军者年会的移动端信息页面，结合微信展示、分享的功能，达到快速查阅会议信息，方便了解会议咨询的效果。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8-qrcode.png',
+            '<br>',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D1.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D2.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D3.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D4.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D5.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%BE%BE%E6%B2%83%E6%96%AF%E5%8F%82%E4%BC%9A%E7%A5%9E%E5%99%A8%EF%BC%8D6.jpg',
+        ]
+    },
+
+    'daoshizhi': {
+        'type': '管理信息系统',
+        'name': '苏州大学导师制管理平台',
+        'tags': ['手机H5', '微信接口开发', 'memcached'],
+        'period': '2015/08 — 2015/09',
+        'link': 'http://sklcc.suda.edu.cn/dsz',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-cover1.png',
+        'description': '【项目描述】：老师在线给学生安排任务，学生向老师提出问题，构建在线学习交流的平台，并作为信息维护、项目管理、成果统计使用。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%871.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%873.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%878.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%8711.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%8713.jpg',
+        ]
+    },
 };
