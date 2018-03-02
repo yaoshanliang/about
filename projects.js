@@ -251,7 +251,7 @@ var projects = {
     'daoshizhi': {
         'type': '管理信息系统',
         'name': '苏州大学导师制管理平台',
-        'tags': ['手机H5', '微信接口开发', 'memcached'],
+        'tags': ['管理信息系统'],
         'period': '2015/08 — 2015/09',
         'link': 'http://sklcc.suda.edu.cn/dsz',
         'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-cover1.png',
@@ -278,6 +278,39 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-2.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-3.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-4.png'
+        ]
+    },
+
+    'psp': {
+        'type': '管理信息系统',
+        'name': '苏州大学学生科研项目管理平台',
+        'tags': ['管理信息系统', 'EaglePHP'],
+        'period': '2013/12 — 2014/03',
+        'link': '内网访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-cover.jpg',
+        'description': '【项目描述】：“科研项目管理平台”是为方便管理科研项目而开发的平台,在同一平台的基础上,项目主持人、辅导员、学院管理员一级学校管理员可以在统一的平台上进行查看、审核、下载等管理操作。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-1.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-2.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-3.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-4.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-5.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-6.jpg'
+        ]
+    },
+
+    'danshengou': {
+        'type': '手机H5',
+        'name': '关爱单身狗H5视频',
+        'tags': ['手机H5', '视频', '微信接口开发'],
+        'period': '2018/01 — 2018/01',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-cover.png',
+        'description': '【项目描述】：<br>1、手机H5网页，强制横屏;<br>2、首先进入Loading页，此过程用来从后台下载视频;<br>3、Loading完成后，进入视频播放页，强制全屏播放；<br>4、视频播放到指定时间，自动暂停，提示用户分享给好友或者朋友圈；<br>5、分享完成后，继续播放<br>6、视频播放完成后，请用户提交一个信息',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-3.png'
         ]
     },
 };
