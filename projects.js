@@ -1,4 +1,54 @@
 var projects = {
+    'danshengou': {
+        'type': '手机H5',
+        'name': '关爱单身狗H5视频',
+        'tags': ['手机H5', '视频', '微信接口开发'],
+        'period': '2018/01 — 2018/01',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-cover.png',
+        'description': '【项目描述】：<br>1、手机H5网页，强制横屏;<br>2、首先进入Loading页，此过程用来从后台下载视频;<br>3、Loading完成后，进入视频播放页，强制全屏播放；<br>4、视频播放到指定时间，自动暂停，提示用户分享给好友或者朋友圈；<br>5、分享完成后，继续播放<br>6、视频播放完成后，请用户提交一个信息',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-3.png'
+        ]
+    },
+
+    'erxin': {
+        'type': '网站',
+        'name': '尔新教育官网',
+        'tags': ['网站', 'wordpress', '响应式'],
+        'period': '2017/12 — 2017/12',
+        'link': 'https://www.edinnovaedu.com/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-cover.jpg',
+        'description': '【项目描述】：教育机构官网',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-1.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-3.png'
+        ]
+    },
+
+    'gov': {
+        'type': '管理信息系统',
+        'name': '政府资产管理系统',
+        'tags': ['管理信息系统', '政府', 'Laravel'],
+        'period': '2017/11 — 2017/12',
+        'link': '政府内网',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC.png',
+        'description': '【项目描述】：资产管理系统实现用户在线管理，物资信息的录入、修改、删除，同时实现对物资的采购、入库、出库、签收等操作的电子化流程管理，支持查询物资的状态及操作明细，方便管理员估算资产及做好预算等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E4%BF%A1%E6%81%AF.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E5%88%86%E7%B1%BB.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E7%AE%A1%E7%90%86.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E6%93%8D%E4%BD%9C%E5%AF%B9%E5%86%B2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97.png'
+        ]
+    },
+
     'study': {
         'type': '网站',
         'name': '在线学习网站',
@@ -36,22 +86,6 @@ var projects = {
         ]
     },
 
-    'baoguangtai': {
-        'type': '网站',
-        'name': '金融曝光台',
-        'tags': ['网站', '金融', 'dagger框架', 'Echarts', '微博接口开发'],
-        'period': '2015/09 — 2015/12',
-        'link': 'http://money.finance.sina.com.cn/baoguangtai/view/',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/CgpnS1ntz-uAS5CqAAFWcTbyIik450%20%281%29.png',
-        'description': '【项目描述】：金融曝光台由新浪财经开发、运营，是一个连接消费者和金融机构的通道。用户可在该平台填写投诉信息、查看投诉进度、对处理结果给予评价；金融机构可在该平台查看关于自家公司的投诉信息、反馈投诉处理进度。<br>【责任描述】：项目组成员，负责后台数据接口：企业入驻、投诉发表、投诉反馈；处理数据，供首页图表显示：未处理投诉排行、投诉地区排行、投诉分类排行等；测试部署。<br>【语言技术】：dagger框架、redis、Echarts、微博接口开发',
-        'images': [
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B5.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B52.jpg',
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B53.jpg',
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E4%BC%81%E4%B8%9A%E5%85%A5%E9%A9%BB.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E6%8A%95%E8%AF%89%E5%A4%84%E7%90%86.png'
-        ]
-    },
 
     'car': {
         'type': '微信公众号',
@@ -92,38 +126,20 @@ var projects = {
         ]
     },
 
-    'gov': {
-        'type': '管理信息系统',
-        'name': '政府资产管理系统',
-        'tags': ['管理信息系统', '政府', 'Laravel'],
-        'period': '2017/11 — 2017/12',
-        'link': '政府内网',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC.png',
-        'description': '【项目描述】：资产管理系统实现用户在线管理，物资信息的录入、修改、删除，同时实现对物资的采购、入库、出库、签收等操作的电子化流程管理，支持查询物资的状态及操作明细，方便管理员估算资产及做好预算等。',
-        'images': [
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E9%A1%B5.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E4%BF%A1%E6%81%AF.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E5%88%86%E7%B1%BB.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E7%89%A9%E8%B5%84%E7%AE%A1%E7%90%86.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E6%93%8D%E4%BD%9C%E5%AF%B9%E5%86%B2.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97.png'
-        ]
-    },
-
-    'dashboard': {
+    'baoguangtai': {
         'type': '网站',
-        'name': '触摸屏',
-        'tags': ['网站', '触摸屏', 'Laravel'],
-        'period': '2017/03 — 至今',
-        'link': '登录访问',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5-cover.png',
-        'description': '【项目描述】：一体机触摸屏项目，在惠民通项目用于在服务站展示政务服务等信息, 包含志愿者服务、预约挂号、血压血糖测量、寄快递、社区治理、智慧养老等。',
+        'name': '金融曝光台',
+        'tags': ['网站', '金融', 'dagger框架', 'Echarts', '微博接口开发'],
+        'period': '2015/09 — 2015/12',
+        'link': 'http://money.finance.sina.com.cn/baoguangtai/view/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/CgpnS1ntz-uAS5CqAAFWcTbyIik450%20%281%29.png',
+        'description': '【项目描述】：金融曝光台由新浪财经开发、运营，是一个连接消费者和金融机构的通道。用户可在该平台填写投诉信息、查看投诉进度、对处理结果给予评价；金融机构可在该平台查看关于自家公司的投诉信息、反馈投诉处理进度。<br>【责任描述】：项目组成员，负责后台数据接口：企业入驻、投诉发表、投诉反馈；处理数据，供首页图表显示：未处理投诉排行、投诉地区排行、投诉分类排行等；测试部署。<br>【语言技术】：dagger框架、redis、Echarts、微博接口开发',
         'images': [
-            'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E5%81%A5%E5%BA%B7%E6%B5%8B%E9%87%8F.png'
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B52.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E9%A6%96%E9%A1%B53.jpg',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E4%BC%81%E4%B8%9A%E5%85%A5%E9%A9%BB.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%87%91%E8%9E%8D%E6%9B%9D%E5%85%89%E5%8F%B0-%E6%8A%95%E8%AF%89%E5%A4%84%E7%90%86.png'
         ]
     },
 
@@ -169,6 +185,21 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F-qrcode.jpeg',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F1.jpg',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%98%89%E7%A6%84%E8%AE%AF%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F2.jpg',
+        ]
+    },
+
+    'dashboard': {
+        'type': '网站',
+        'name': '触摸屏',
+        'tags': ['网站', '触摸屏', 'Laravel'],
+        'period': '2017/03 — 至今',
+        'link': '登录访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5-cover.png',
+        'description': '【项目描述】：一体机触摸屏项目，在惠民通项目用于在服务站展示政务服务等信息, 包含志愿者服务、预约挂号、血压血糖测量、寄快递、社区治理、智慧养老等。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E4%B8%80%E4%BD%93%E6%9C%BA%E9%A6%96%E9%A1%B5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%81%A5%E5%BA%B7%E6%B5%8B%E9%87%8F.png'
         ]
     },
 
@@ -297,20 +328,5 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-5.jpg',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%AD%A6%E7%94%9F%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-6.jpg'
         ]
-    },
-
-    'danshengou': {
-        'type': '手机H5',
-        'name': '关爱单身狗H5视频',
-        'tags': ['手机H5', '视频', '微信接口开发'],
-        'period': '2018/01 — 2018/01',
-        'link': '扫码访问',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-cover.png',
-        'description': '【项目描述】：<br>1、手机H5网页，强制横屏;<br>2、首先进入Loading页，此过程用来从后台下载视频;<br>3、Loading完成后，进入视频播放页，强制全屏播放；<br>4、视频播放到指定时间，自动暂停，提示用户分享给好友或者朋友圈；<br>5、分享完成后，继续播放<br>6、视频播放完成后，请用户提交一个信息',
-        'images': [
-            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-1.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-2.png',
-            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-3.png'
-        ]
-    },
+    }
 };
