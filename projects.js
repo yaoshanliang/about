@@ -120,7 +120,7 @@ var projects = {
         'tags': ['网站', 'Laravel', '开源'],
         'period': '2017/03 — 至今',
         'link': 'https://github.com/yaoshanliang/laravel',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/laravel.png',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/laravel-cover.png',
         'description': '【项目描述】基于Laravel的上手即用框架,内置前台、后台、api、微信公众号、微信小程序功能模块。<br>【开源地址】: <a href="https://github.com/yaoshanliang/laravel" target="_blank">https://github.com/yaoshanliang/laravel</a> ',
         'images': [
         ]
