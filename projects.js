@@ -264,4 +264,20 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%AF%BC%E5%B8%88%E5%88%B6-%E5%9B%BE%E7%89%8713.jpg',
         ]
     },
+
+    'youlian': {
+        'type': '网站',
+        'name': '苏州友联纺工装备科技股份公司网站',
+        'tags': ['网站', 'wordpress'],
+        'period': '2015/05 — 2015/09',
+        'link': 'http://www.ylfj.com.cn/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-cover1.png',
+        'description': '【项目描述】：苏州友联纺工装备科技股份公司需要搭建公司网站，用于宣传介绍公司的信息、新闻、产品等，提供“配置方案”和“价格计算”的功能，供访客自行配置商品及计算价格。公司后台需要维护各种信息、收集访客日志的功能，从而实现定向服务推广。结合移动端微信技术，达到快速分享、推广宣传的效果。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-3.png',
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%8F%8B%E8%81%94%E7%BD%91%E7%AB%99-4.png'
+        ]
+    },
 };
