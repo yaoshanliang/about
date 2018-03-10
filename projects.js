@@ -230,7 +230,7 @@ var projects = {
         'period': '2016/10 — 2016/10',
         'link': 'http://www.jsssha.com/',
         'cover': 'http://p4qunz9x0.bkt.clouddn.com/ssha-cover.png',
-        'description': '【项目描述】：基于血压血糖仪器测量汇报的数据，通过图表的形式将血压血糖的数据展示出来；用户可以绑定自己家人的账号，方便对家人数据的查看；对异常的血压血糖用突出的颜色标注，后台定期发送消息提醒。',
+        'description': '【项目描述】：提供公司新闻资讯、产品服务、宣传视频、联系方式等。',
         'images': [
             'http://p4qunz9x0.bkt.clouddn.com/ssha-1.png',
             'http://p4qunz9x0.bkt.clouddn.com/ssha-2.png',
