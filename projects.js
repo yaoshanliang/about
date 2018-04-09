@@ -1,4 +1,35 @@
 var projects = {
+    'boren': {
+        'type': '微信公众号',
+        'name': '苏州博仁跆拳道',
+        'tags': ['微信公众号', 'Laravel'],
+        'period': '2018/03 — 2018/03',
+        'link': '微信公众号: 苏州博仁跆拳道',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
+        'description': '【项目描述】：公众号内报名比赛活动并缴费',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
+            '<br>',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-3.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-4.png'
+        ]
+    },
+
+    'yoosense': {
+        'type': '网站',
+        'name': '基督徒婚恋专属平台',
+        'tags': ['网站', '响应式'],
+        'period': '2018/02 — 2018/02',
+        'link': 'http://www.yoosense.com/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/yoosense-cover.png',
+        'description': '【项目描述】：社交APP的宣传介绍页面',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/yoosense-1.png'
+        ]
+    },
+
     'danshengou': {
         'type': '手机H5',
         'name': '关爱单身狗H5视频',
