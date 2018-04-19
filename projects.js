@@ -39,6 +39,8 @@ var projects = {
         'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-cover.png',
         'description': '【项目描述】：<br>1、手机H5网页，强制横屏;<br>2、首先进入Loading页，此过程用来从后台下载视频;<br>3、Loading完成后，进入视频播放页，强制全屏播放；<br>4、视频播放到指定时间，自动暂停，提示用户分享给好友或者朋友圈；<br>5、分享完成后，继续播放<br>6、视频播放完成后，请用户提交一个信息',
         'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-cover.png',
+            '<br>',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-1.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-2.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%85%B3%E7%88%B1%E5%8D%95%E8%BA%AB%E7%8B%97-3.png'
