@@ -1,5 +1,5 @@
 var projects = {
-    'boren': {
+    /*'boren': {
         'type': '微信公众号',
         'name': '苏州博仁跆拳道',
         'tags': ['微信公众号', 'Laravel'],
@@ -60,13 +60,13 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-2.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-3.png'
         ]
-    },
+    },*/
 
     'gov': {
         'type': '管理信息系统',
         'name': '政府资产管理系统',
         'tags': ['管理信息系统', '政府', 'Laravel'],
-        'period': '2017/11 — 2017/12',
+        'period': '2017/11 — 2018/01',
         'link': '政府内网',
         'cover': 'http://p4qunz9x0.bkt.clouddn.com/%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E9%A1%B5%E7%9A%84%E5%89%AF%E6%9C%AC.png',
         'description': '【项目描述】：资产管理系统实现用户在线管理，物资信息的录入、修改、删除，同时实现对物资的采购、入库、出库、签收等操作的电子化流程管理，支持查询物资的状态及操作明细，方便管理员估算资产及做好预算等。',
