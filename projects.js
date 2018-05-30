@@ -1,5 +1,22 @@
 var projects = {
-    /*'boren': {
+    'sanlac': {
+        'type': '网站',
+        'name': '三水升',
+        'tags': ['网站', 'wordpress'],
+        'period': '2018/04 — 2018/05',
+        'link': '微信公众号: 苏州博仁跆拳道',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
+        'description': '【项目描述】：wordpress主题开发',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
+            '<br>',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-3.png',
+            'http://p4qunz9x0.bkt.clouddn.com/boren-4.png'
+        ]
+    },
+    'boren': {
         'type': '微信公众号',
         'name': '苏州博仁跆拳道',
         'tags': ['微信公众号', 'Laravel'],
@@ -60,7 +77,7 @@ var projects = {
             'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-2.png',
             'http://p4qunz9x0.bkt.clouddn.com/%E5%B0%94%E6%96%B0%E6%95%99%E8%82%B2-3.png'
         ]
-    },*/
+    },
 
     'gov': {
         'type': '管理信息系统',
