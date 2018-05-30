@@ -4,16 +4,13 @@ var projects = {
         'name': '三水升',
         'tags': ['网站', 'wordpress'],
         'period': '2018/04 — 2018/05',
-        'link': '微信公众号: 苏州博仁跆拳道',
-        'cover': 'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
+        'link': 'http://149.28.69.69/',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/sanlac-cover.png',
         'description': '【项目描述】：wordpress主题开发',
         'images': [
-            'http://p4qunz9x0.bkt.clouddn.com/boren-qrcode.jpg',
-            '<br>',
-            'http://p4qunz9x0.bkt.clouddn.com/boren-1.png',
-            'http://p4qunz9x0.bkt.clouddn.com/boren-2.png',
-            'http://p4qunz9x0.bkt.clouddn.com/boren-3.png',
-            'http://p4qunz9x0.bkt.clouddn.com/boren-4.png'
+            'http://p4qunz9x0.bkt.clouddn.com/sanlac-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/sanlac-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/sanlac-3.png',
         ]
     },
     'boren': {
