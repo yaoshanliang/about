@@ -1,4 +1,30 @@
 var projects = {
+    'weapp-ibeacon': {
+        'type': '微信小程序',
+        'name': 'ibeacon智能场景小程序',
+        'tags': ['微信小程序', 'ibeacon'],
+        'period': '2018/06 — 2018/07',
+        'link': '扫码访问',
+        'cover': 'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-qrcode.jpg',
+        'description': '【项目描述】：根据ibeacon与手机之间的距离，展示不同场景的营销页面，包含图文、视频、音频、红包、优惠券等，适用于商场里的营销推广。',
+        'images': [
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-qrcode.jpg',
+            '<br/>',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-1.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-2.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-3.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-4.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-5.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-6.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-7.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-8.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-9.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-10.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-11.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-12.png',
+            'http://p4qunz9x0.bkt.clouddn.com/weapp-ibeacon-13.png',
+        ]
+    },
     'sanlac': {
         'type': '网站',
         'name': '三水升',
