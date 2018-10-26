@@ -153,6 +153,22 @@ var projects = {
         ]
     },
 
+    'vbot-tuling': {
+        'type': '开源项目',
+        'name': '微信-图灵机器人',
+        'tags': ['微信'],
+        'period': '2017/08 — 2017/9',
+        'link': 'https://github.com/yaoshanliang/vbot-tuling',
+        'cover': 'vbot-tuling-logo.png',
+        'description': '【项目描述】：调用图灵机器人接口，自动回复微信消息。',
+        'images': [
+            '<br/>',
+            'vbot-tuling-1.png',
+            'vbot-tuling-2.png',
+            'vbot-tuling-3.png',
+        ]
+    },
+
     'gov': {
         'type': '管理信息系统',
         'name': '政府资产管理系统',
