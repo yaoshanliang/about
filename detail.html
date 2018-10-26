@@ -87,10 +87,10 @@
     $('#description').html(project.description);
     html = '';
     $.each(project.images, function (index, value) {
-        if (value.indexOf('http') != -1) {
-            html += '<img class="project_detail_image" src="' + value + '">';
+        if (value.indexOf('<br') >=0 ) {
+            html += '<br />';
         } else {
-            html += value;
+            html += '<img class="project_detail_image" src="' + SITE + value + '">';
         }
     });
     $('#images').html(html);
