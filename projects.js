@@ -1,4 +1,4 @@
-var SITE = 'http://p4qunz9x0.bkt.clouddn.com/';
+var SITE = 'http://image.iat.net.cn/';
 
 var projects = {
     'szhlw-aliapp': {

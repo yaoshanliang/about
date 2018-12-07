@@ -80,3 +80,9 @@
 #profile_additional .has_production dt {
     height: auto;
 }
+#profile_additional .has_production .quick_link {
+    text-decoration: none;
+}
+#profile_additional .has_production .quick_link:hover{
+    text-decoration: underline;
+}
