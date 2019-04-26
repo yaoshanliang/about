@@ -6,7 +6,7 @@
     <meta content="iat, 姚善良, 软件开发, 全栈开发, PHP, HTML, Javascript, CSS, 微信公众号, 微信小程序, 管理信息系统, 网站网页" name="keywords">
     <meta content="iat, 姚善良, 软件开发, 全栈开发, PHP, HTML, Javascript, CSS, 微信公众号, 微信小程序, 管理信息系统, 网站网页" name="description">
     <title>姚善良-项目案例</title>
-    <link rel="icon shortcut bookmark" href="https://static.lagou.com/parttime-jobs/static/common/static/favicon_890fe78.ico">
+    <link rel="icon shortcut bookmark" href="./files/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./files/base_1fab9d1.css">
     <link rel="stylesheet" type="text/css" href="./files/layout_603fe42.css">
     <link rel="stylesheet" type="text/css" href="./files/main.html_aio_157b078.css">
@@ -34,6 +34,7 @@
             <a class="set_tab" data-type="支付宝小程序">支付宝小程序</a>
             <a class="set_tab" data-type="管理信息系统">管理信息系统</a>
             <a class="set_tab" data-type="手机H5">手机H5</a>
+            <a class="set_tab" data-type="APP">APP</a>
             <a class="set_tab" data-type="开源项目">开源项目</a>
         </div>
         <div id="project_list">
@@ -68,7 +69,7 @@
             if (value.type.indexOf(type) != -1 || type == 0) {
                 html += '<li class="' + value.type + '"> ' +
                         '<a href=./detail.html?id=' + index + ' target="_blank" > <div class="project_item"> ' +
-                        '<img class="project_item_image" src=' + SITE + value.cover + '>' +
+                        '<img class="project_item_image" src=./images/' + value.cover + '>' +
                         '</div><div class="project_main"> ' +
                         '<h3>' + value.name + '</h3> ' +
                         '<div class="category_list"> ';

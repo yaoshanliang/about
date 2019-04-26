@@ -5,7 +5,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <title></title>
-    <link rel="icon shortcut bookmark" href="https://static.lagou.com/parttime-jobs/static/common/static/favicon_890fe78.ico">
+    <link rel="icon shortcut bookmark" href="./files/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./files/base_1fab9d1.css">
     <link rel="stylesheet" type="text/css" href="./files/layout_603fe42.css">
     <link rel="stylesheet" type="text/css" href="./files/main.html_aio_1be04c3.css">
@@ -44,7 +44,6 @@
                 <pre id="description"></pre>
                 </div>
                 <div id="images">
-                     src="http://p4qunz9x0.bkt.clouddn.com/CgpnS1ntzDSANcohABXnVC90BCM039%20%281%29.png">
                 </div>
             </div>
         </div>
@@ -87,10 +86,10 @@
     $('#description').html(project.description);
     html = '';
     $.each(project.images, function (index, value) {
-        if (value.indexOf('<br') >=0 ) {
+        if (value.name.indexOf('<br') >=0 ) {
             html += '<br />';
         } else {
-            html += '<img class="project_detail_image" src="' + SITE + value + '">';
+            html += '<img class="project_detail_image" src="./images/' + value.name + '"' + 'width=' + value.width + ' height=' + value.height + '>';
         }
     });
     $('#images').html(html);
