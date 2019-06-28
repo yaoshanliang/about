@@ -86,3 +86,22 @@
 #profile_additional .has_production .quick_link:hover{
     text-decoration: underline;
 }
+#footer {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 20px;
+    height: 50px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.copyright {
+    padding-right: 20px;
+}
+.icp {
+    padding-right: 20px;
+}
