@@ -1,5 +1,25 @@
 
 var projects = {
+    'ediudiu-weapp': {
+        'type': '微信小程序',
+        'name': '易丢丢',
+        'tags': ['微信小程序'],
+        'period': '2019/07 — 2019/07',
+        'link': '扫码访问',
+        'cover': '【易丢丢微信小程序】qrcode.jpg',
+        'description': '【项目描述】：苏州市互联网+垃圾分类综合管理系统项目借鉴国内外、各行业相关建设的先进经验，特别是上海“绿色账户”工作，以可回收物的回收为突破口，通过“互联网+”的模式，建立垃圾分类综合管理服务平台，改变原有的可回收物回收模式，同时系统应具有很强的扩展性，可以兼顾大件垃圾和有害垃圾回收管理，未来还将扩展对有害垃圾的回收管理，鼓励更多的居民，特别是年轻人参与垃圾分类，建设高效、持续的垃圾分类回收新生态。',
+        'images': [
+            { name: '【易丢丢微信小程序】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】1.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】2.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】3.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】4.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】5.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】6.png', width: 360, height: 'auto'},
+            { name: '【易丢丢支付宝小程序】7.png', width: 360, height: 'auto'},
+        ]
+    },
     'ediudiu-aliapp': {
         'type': '支付宝小程序',
         'name': 'E丢丢',
