@@ -1,7 +1,7 @@
 
 var projects = {
     'weapp': {
-        'type': '微信小程序',
+        'type': '微信小程序 开源项目',
         'name': '知晓程序',
         'tags': ['微信小程序'],
         'period': '2019/07 — 至今',
