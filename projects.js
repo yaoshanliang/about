@@ -1,5 +1,18 @@
 
 var projects = {
+    'weapp': {
+        'type': '微信小程序',
+        'name': '知晓程序',
+        'tags': ['微信小程序'],
+        'period': '2019/07 — 至今',
+        'link': '扫码访问',
+        'cover': '【weapp】qrcode.jpg',
+        'description': '【项目描述】：微信小程序开箱即用',
+        'images': [
+            { name: '【weapp】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+        ]
+    },
     'ediudiu-weapp': {
         'type': '微信小程序',
         'name': '易丢丢',
