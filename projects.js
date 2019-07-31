@@ -1,5 +1,18 @@
 
 var projects = {
+    '007': {
+        'type': '微信小程序',
+        'name': '零售商品临近保质期检索',
+        'tags': ['微信小程序'],
+        'period': '2019/07 — 2019/08',
+        'link': '扫码访问',
+        'cover': '【007】qrcode.jpg',
+        'description': '【项目描述】：检索商品保质期，根据生产日期计算商品是否已经过期；适用于大型超市，商场，便利店检查和记录商品保质期的小工具。',
+        'images': [
+            { name: '【007】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+        ]
+    },
     'weapp': {
         'type': '微信小程序 开源项目',
         'name': '知晓程序',
