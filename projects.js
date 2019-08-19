@@ -1,5 +1,18 @@
 
 var projects = {
+    'ng': {
+        'type': '微信小程序',
+        'name': '纳故易分类',
+        'tags': ['微信小程序'],
+        'period': '2019/08 — 2019/08',
+        'link': '扫码访问',
+        'cover': '【纳故】qrcode.jpg',
+        'description': '【项目描述】：苏州纳故环保科技有限公司—城市全循环智能分类数据大脑运营商，助推垃圾分类可循环、可复制、可持续。',
+        'images': [
+            { name: '【纳故】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+        ]
+    },
     '007': {
         'type': '微信小程序',
         'name': '零售商品临近保质期检索',
@@ -11,6 +24,13 @@ var projects = {
         'images': [
             { name: '【007】qrcode.jpg', width: 250, height: 'auto'},
             { name: '<br/>', width: 360, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【007】1.jpg', width: 360, height: 'auto'},
+            { name: '【007】2.jpg', width: 360, height: 'auto'},
+            { name: '【007】3.jpg', width: 360, height: 'auto'},
+            { name: '【007】4.jpg', width: 360, height: 'auto'},
+            { name: '【007】5.jpg', width: 360, height: 'auto'},
+            { name: '【007】6.jpg', width: 360, height: 'auto'},
         ]
     },
     'weapp': {
@@ -33,7 +53,7 @@ var projects = {
         'period': '2019/07 — 2019/07',
         'link': '扫码访问',
         'cover': '【易丢丢微信小程序】qrcode.jpg',
-        'description': '【项目描述】：苏州市互联网+垃圾分类综合管理系统项目借鉴国内外、各行业相关建设的先进经验，特别是上海“绿色账户”工作，以可回收物的回收为突破口，通过“互联网+”的模式，建立垃圾分类综合管理服务平台，改变原有的可回收物回收模式，同时系统应具有很强的扩展性，可以兼顾大件垃圾和有害垃圾回收管理，未来还将扩展对有害垃圾的回收管理，鼓励更多的居民，特别是年轻人参与垃圾分类，建设高效、持续的垃圾分类回收新生态。',
+        'description': '【项目描述】：居民通过小程序预约下单，回收员上门服务回收废品，结算的收益以积分或者零钱的方式发放到账户，可在小程序的商城中兑换商品。垃圾减量，从我做起。',
         'images': [
             { name: '【易丢丢微信小程序】qrcode.jpg', width: 250, height: 'auto'},
             { name: '<br/>', width: 360, height: 'auto'},
