@@ -24,7 +24,6 @@ var projects = {
         'images': [
             { name: '【007】qrcode.jpg', width: 250, height: 'auto'},
             { name: '<br/>', width: 360, height: 'auto'},
-            { name: '<br/>', width: 360, height: 'auto'},
             { name: '【007】1.jpg', width: 360, height: 'auto'},
             { name: '【007】2.jpg', width: 360, height: 'auto'},
             { name: '【007】3.jpg', width: 360, height: 'auto'},
