@@ -6,11 +6,20 @@ var projects = {
         'tags': ['微信小程序'],
         'period': '2019/08 — 2019/08',
         'link': '扫码访问',
-        'cover': '【纳故】qrcode.jpg',
+        'cover': '【纳故易分类】qrcode.jpg',
         'description': '【项目描述】：苏州纳故环保科技有限公司—城市全循环智能分类数据大脑运营商，助推垃圾分类可循环、可复制、可持续。',
         'images': [
-            { name: '【纳故】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '【纳故易分类】qrcode.jpg', width: 250, height: 'auto'},
             { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【纳故易分类】1.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】2.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】3.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】4.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】5.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】6.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】7.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】8.jpg', width: 360, height: 'auto'},
+            { name: '【纳故易分类】9.jpg', width: 360, height: 'auto'},
         ]
     },
     '007': {
