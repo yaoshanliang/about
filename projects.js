@@ -1,5 +1,43 @@
 
 var projects = {
+    'martin': {
+        'type': '网站',
+        'name': '马丁特尼尔技术',
+        'tags': ['网站'],
+        'period': '2019/11 — 2019/11',
+        'link': 'http://www.martintrier.cn/',
+        'cover': '【martin】cover.png',
+        'description': '【项目描述】：企业官网',
+        'images': [
+            { name: '【martin】1.png', width: 1080, height: 'auto'},
+            { name: '【martin】2.png', width: 1080, height: 'auto'},
+            { name: '【martin】3.png', width: 1080, height: 'auto'},
+            { name: '【martin】4.png', width: 1080, height: 'auto'},
+            { name: '【martin】5.png', width: 1080, height: 'auto'},
+            { name: '【martin】6.png', width: 1080, height: 'auto'},
+            { name: '【martin】7.png', width: 1080, height: 'auto'},
+            { name: '【martin】8.png', width: 1080, height: 'auto'},
+        ]
+    },
+    'zhixiao': {
+        'type': '微信小程序 开源项目',
+        'name': '知晓学堂',
+        'tags': ['微信小程序'],
+        'period': '2019/09 — 2019/10',
+        'link': 'https://github.com/yaoshanliang/weapp-zhixiao',
+        'cover': '【zhixiao】qrcode.jpg',
+        'description': '【项目描述】：答题小程序, 包含小程序端和管理后台。小程序端可选择学习的科目，顺序练习、随机联系、错题回顾、收藏等。管理后台可设置学习科目，创建题目，导入题库等。',
+        'images': [
+            { name: '【zhixiao】qrcode.jpg', width: 250, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【zhixiao】1.jpg', width: 360, height: 'auto'},
+            { name: '【zhixiao】2.jpg', width: 360, height: 'auto'},
+            { name: '【zhixiao】3.jpg', width: 360, height: 'auto'},
+            { name: '【zhixiao】4.jpg', width: 360, height: 'auto'},
+            { name: '【zhixiao】5.jpg', width: 360, height: 'auto'},
+            { name: '【zhixiao】6.jpg', width: 360, height: 'auto'},
+        ]
+    },
     'ng': {
         'type': '微信小程序',
         'name': '纳故易分类',
@@ -43,7 +81,7 @@ var projects = {
     },
     'weapp': {
         'type': '微信小程序 开源项目',
-        'name': '知晓程序',
+        'name': '微信小程序框架',
         'tags': ['微信小程序'],
         'period': '2019/07 — 至今',
         'link': '扫码访问',
