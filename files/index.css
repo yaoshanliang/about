@@ -44,7 +44,7 @@
 .project_item_image {
     max-width: 100%;
     max-height: 200px;
-    position:absolute;
+    /* position:absolute; */
 	top:0;
 	bottom:0;
 	left:0;

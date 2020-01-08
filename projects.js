@@ -1,5 +1,7 @@
 
 var projects = {
+
+    
     'martin': {
         'type': '网站',
         'name': '马丁特尼尔技术',
@@ -136,6 +138,18 @@ var projects = {
             { name: '【易丢丢支付宝小程序】5.png', width: 360, height: 'auto'},
             { name: '【易丢丢支付宝小程序】6.png', width: 360, height: 'auto'},
             { name: '【易丢丢支付宝小程序】7.png', width: 360, height: 'auto'},
+        ]
+    },
+    'wxParse': {
+        'type': 'package 开源项目',
+        'name': '支付宝小程序 富文本组件',
+        'tags': ['package, 开源项目'],
+        'period': '2018/11',
+        'link': 'https://github.com/yaoshanliang/wxParse',
+        'cover': '【wxParse】cover.png',
+        'description': '【项目描述】：支付宝小程序 富文本组件，命名安装，方便使用',
+        'images': [
+            
         ]
     },
     'yoosense-app': {
@@ -398,6 +412,18 @@ var projects = {
             { name: '【一路租车】14.png', width: 360, height: 'auto'},
             { name: '【一路租车】15.png', width: 360, height: 'auto'},
             { name: '【一路租车】16.png', width: 360, height: 'auto'},
+        ]
+    },
+    'phpsms': {
+        'type': 'package 开源项目',
+        'name': 'PHP短信包',
+        'tags': ['package, 开源项目'],
+        'period': '2016/11',
+        'link': 'https://github.com/yaoshanliang/phpsms',
+        'cover': '【phpsms】cover.png',
+        'description': '【项目描述】：PHP短信包，命名安装，方便使用',
+        'images': [
+            
         ]
     },
 
