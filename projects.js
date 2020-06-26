@@ -1,7 +1,34 @@
 
 var projects = {
 
-    
+    'xjtlu-iot': {
+        'type': '微信小程序',
+        'name': '基于物联网技术的危险品物流监测和风险评估平台',
+        'tags': ['微信小程序'],
+        'period': '2020/02 — 2020/05',
+        'link': '扫码访问',
+        'cover': '【xjtlu-iot】qrcode.jpg',
+        'description': '【项目描述】: 基于物联网技术的危险品物流监测和风险评估平台',
+        'images': [
+            { name: '【xjtlu-iot】qrcode.jpg', width: 360, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】0-登录.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-0运营管理.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-1绑定的车辆.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-2绑定的传感器.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-3绑定的网关.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-4传感器数据.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】1-5设备绑定.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】2-1设备管理-车辆.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】2-2设备管理-网关.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】2-3设备管理-传感器.png', width: 360, height: 'auto'},
+            { name: '【xjtlu-iot】2-4新增车辆.png', width: 360, height: 'auto'},        
+            { name: '【xjtlu-iot】2-5新增网关.png', width: 360, height: 'auto'},        
+            { name: '【xjtlu-iot】2-6新增传感器.png', width: 360, height: 'auto'},        
+            { name: '【xjtlu-iot】3异常预警.png', width: 360, height: 'auto'},        
+            { name: '【xjtlu-iot】4个人中心.png', width: 360, height: 'auto'},          
+        ]
+    },
     'martin': {
         'type': '网站',
         'name': '马丁特尼尔技术',
