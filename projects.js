@@ -1,6 +1,23 @@
 
 var projects = {
 
+    'xjtlu-music': {
+        'type': '网站',
+        'name': 'XJTLU MUSIC FESTIVAL',
+        'tags': ['网站'],
+        'period': '2020/05 — 2020/05',
+        'link': 'http://cw1.411.iat.net.cn/',
+        'cover': '【xjtlu-music】cover.png',
+        'description': '【项目描述】: XJTLU MUSIC FESTIVAL宣传页面',
+        'images': [
+            { name: '【XJTLU-music】1.png', width: 'auto', height: 'auto'},
+            { name: '【XJTLU-music】2.png', width: 'auto', height: 'auto'},
+            { name: '【XJTLU-music】3.png', width: 'auto', height: 'auto'},
+            { name: '【XJTLU-music】4.png', width: 'auto', height: 'auto'},
+            { name: '【XJTLU-music】5.png', width: 'auto', height: 'auto'},
+            { name: '【XJTLU-music】6.png', width: 'auto', height: 'auto'},      
+        ]
+    },
     'xjtlu-iot': {
         'type': '微信小程序',
         'name': '基于物联网技术的危险品物流监测和风险评估平台',
