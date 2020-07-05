@@ -7,7 +7,7 @@ var projects = {
         'tags': ['网站'],
         'period': '2020/05 — 2020/05',
         'link': 'http://cw1.411.iat.net.cn/',
-        'cover': '【xjtlu-music】cover.png',
+        'cover': '【XJTLU-music】cover.png',
         'description': '【项目描述】: XJTLU MUSIC FESTIVAL宣传页面',
         'images': [
             { name: '【XJTLU-music】1.png', width: 'auto', height: 'auto'},
