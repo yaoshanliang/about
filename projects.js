@@ -1,6 +1,48 @@
 
 var projects = {
 
+    'water-weapp': {
+        'type': '微信小程序',
+        'name': '水质自动监测系统数据管理平台',
+        'tags': ['微信小程序'],
+        'period': '2020/07 — 2020/07',
+        'link': '扫码访问',
+        'cover': '【water-weapp】qrcode.jpg',
+        'description': '【项目描述】: 利用腾讯地图可视化展示岸基站、浮标站的位置及水质数据，ECharts展示水质变化曲线及断面水质统计，提供监控的实时视频及回放功能，提供多种形式的数据报表及EXCEL导出功能。',
+        'images': [
+            { name: '【water-weapp】qrcode.jpg', width: 360, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【water-weapp】1.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】2.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】3.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】4.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】5.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】6.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】7.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】8.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】9.png', width: 360, height: 'auto'},
+            { name: '【water-weapp】10.png', width: 360, height: 'auto'},
+        ]
+    },
+
+    'water': {
+        'type': '管理信息系统',
+        'name': '水质自动监测系统数据管理平台',
+        'tags': ['管理信息系统', 'Laravel', '百度地图', 'ECharts'],
+        'period': '2020/04 — 2020/07',
+        'link': 'https://water.iat.net.cn/',
+        'cover': '【water】cover.png',
+        'description': '【项目描述】: 利用百度地图可视化展示岸基站、浮标站的位置及水质数据，ECharts展示水质变化曲线及断面水质统计，提供监控的实时视频及回放功能，提供多种形式的数据报表及EXCEL导出功能。',
+        'images': [
+            { name: '【water】1.png', width: 'auto', height: 'auto'},
+            { name: '【water】2.png', width: 'auto', height: 'auto'},
+            { name: '【water】3.png', width: 'auto', height: 'auto'},
+            { name: '【water】4.png', width: 'auto', height: 'auto'},
+            { name: '【water】5.png', width: 'auto', height: 'auto'},
+            { name: '【water】6.png', width: 'auto', height: 'auto'},      
+            { name: '【water】7.png', width: 'auto', height: 'auto'},      
+        ]
+    },
     'xjtlu-music': {
         'type': '网站',
         'name': 'XJTLU MUSIC FESTIVAL',
