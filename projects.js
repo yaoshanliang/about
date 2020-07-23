@@ -43,6 +43,26 @@ var projects = {
             { name: '【water】7.png', width: 'auto', height: 'auto'},      
         ]
     },
+
+    'car': {
+        'type': '管理信息系统',
+        'name': '公务用车派车管理系统',
+        'tags': ['管理信息系统', 'Laravel'],
+        'period': '2020/04 — 2020/06',
+        'link': 'http://car.iat.net.cn/',
+        'cover': '【car】cover.png',
+        'description': '【项目描述】: <br/>[主要功能]: 1、在线预约用车; 2、在线审核用车; 3、在线派车; 4、车辆状态查询; 5、工作量统计; <br/>[技术特点]: 1、在线预约用车支持多个用车类型，如当日用车、次日及以后用车、按月固定用车、紧急用车等; 2、在线派车支持车辆和司机的状态校验; 3、车辆状态查询支持按车辆查询、按时间查询; 4、工作量统计支持加班时长统计、值班时长统计; 5、车辆排班情况支持打印。',
+        'images': [
+            { name: '【car】1.png', width: 'auto', height: 'auto'},
+            { name: '【car】2.png', width: 'auto', height: 'auto'},
+            { name: '【car】3.png', width: 'auto', height: 'auto'},
+            { name: '【car】4.png', width: 'auto', height: 'auto'},
+            { name: '【car】5.png', width: 'auto', height: 'auto'},
+            { name: '【car】6.png', width: 'auto', height: 'auto'},
+        ]
+    },
+
+
     'xjtlu-music': {
         'type': '网站',
         'name': 'XJTLU MUSIC FESTIVAL',
@@ -473,7 +493,7 @@ var projects = {
         ]
     },
 
-    'car': {
+    'bus': {
         'type': '微信公众号',
         'name': '一路租车',
         'tags': ['微信公众号', '旅游', '地图', 'Laravel', '微信接口开发'],
