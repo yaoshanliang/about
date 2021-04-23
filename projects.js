@@ -1,6 +1,23 @@
 
 var projects = {
 
+    'key-weapp': {
+        'type': '微信小程序',
+        'name': '蓝牙开锁',
+        'tags': ['微信小程序'],
+        'period': '2021/01 — 2021/04',
+        'link': '扫码访问',
+        'cover': '【key-weapp】qrcode.jpg',
+        'description': '【项目描述】: 连接蓝牙，手机开锁。',
+        'images': [
+            { name: '【key-weapp】qrcode.jpg', width: 360, height: 'auto'},
+            { name: '<br/>', width: 360, height: 'auto'},
+            { name: '【key-weapp】1.png', width: 360, height: 'auto'},
+            { name: '【key-weapp】2.png', width: 360, height: 'auto'},
+            { name: '【key-weapp】3.png', width: 360, height: 'auto'},
+        ]
+    },
+
     'water-weapp': {
         'type': '微信小程序',
         'name': '水质自动监测系统数据管理平台',
